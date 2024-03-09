@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px, solid #666;
+  background-color: bisque;
+  color: black;
+  border-radius: 20px;
+}
+
+.avatar {
+  padding-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.stats {
+  margin-top: auto;
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.stats li {
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid #666;
+}
+
+.stats ul {
+  list-style-type: none;
+}

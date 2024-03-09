@@ -1,0 +1,24 @@
+.friendList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.friendListItem {
+  padding: 10px 10px;
+  border: 1px solid lightslategrey;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.friendListItem img {
+  border-radius: 50%;
+}
+
+.friendListItem p {
+  margin: 0;
+}
+
+.friendListItem p:last-child {
+  margin-left: auto;
+}
